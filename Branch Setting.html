@@ -454,12 +454,13 @@
             <div class="dashboard-content-one">
                 <!-- Breadcubs Area Start Here -->
                 <div class="breadcrumbs-area">
-                    <h3>Setup</h3>
+                    <h3>School Setting</h3>
                     <ul>
                         <li>
                             <a href="index.html">Home</a>
                         </li>
-                        <li>Setting</li>
+                        <li><a href="setup.html">Setup</a></li>
+                        <li>Branch Setting</li>
                     </ul>
                 </div>
                 <!-- Breadcubs Area End Here -->
@@ -470,7 +471,7 @@
                             <div class="card-body">
                                 <div class="heading-layout1">
                                     <div class="item-title">
-                                        <h3>Add New User</h3>
+                                        <h3>General Setting</h3>
                                     </div>
                                     <div class="dropdown">
                                         <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
@@ -486,134 +487,347 @@
                                         </div>
                                     </div>
                                 </div>
+
                                 <form class="new-added-form">
+
                                     <div class="row">
-                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>First Name *</label>
+                                      <div class="col-xl-3 col-lg-3 col-12 form-group">
+                                          <label>Select School Code/ID *</label>
+                                          <select class="select2">
+                                              <option value="">Please Select*</option>
+                                              <option value="1">001</option>
+                                          </select>
+                                          <div class="col-xl-3 col-lg-3 col-12 form-group">
+                                              <label>Branch Code/ID *</label>
+                                              <input type="text" placeholder="" class="form-control">
+                                          </div>
+                                      </div><div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Branch Name *</label>
+                                            <input type="text" placeholder="" class="form-control">
+                                        </div>
+
+                                        <div class="col-xl-3 col-lg-3 col-12 form-group">
+                                            <label>Establishment Year *</label>
+                                            <input type="text" placeholder="" class="form-control">
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-12 form-group">
+                                            <label>Address *</label>
                                             <input type="text" placeholder="" class="form-control">
                                         </div>
                                         <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>Last Name *</label>
+                                            <label>City *</label>
                                             <input type="text" placeholder="" class="form-control">
                                         </div>
                                         <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>User Type *</label>
+                                            <label>State *</label>
+                                            <input type="text" placeholder="" class="form-control">
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Country *</label>
+                                            <input type="text" placeholder="" class="form-control">
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Pin Code *</label>
+                                            <input type="text" placeholder="" class="form-control">
+                                        </div>
+                                        <div class="col-xl-6 col-lg-6 col-12 form-group">
+                                            <label>Landmark/ Locality *</label>
+                                            <input type="text" placeholder="" class="form-control">
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Landline No. *</label>
+                                            <input type="text" placeholder="" class="form-control">
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Phone No. *</label>
+                                            <input type="text" placeholder="" class="form-control">
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Email ID *</label>
+                                            <input type="text" placeholder="" class="form-control">
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Website URL *</label>
+                                            <input type="text" placeholder="" class="form-control">
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>School Type *</label>
                                             <select class="select2">
                                                 <option value="">Please Select*</option>
-                                                <option value="1">Super Admin</option>
-                                                <option value="2">Admin</option>
-                                                <option value="3">User</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>Gender *</label>
-                                            <select class="select2">
-                                                <option value="">Please Select Gender *</option>
-                                                <option value="1">Male</option>
-                                                <option value="2">Female</option>
+                                                <option value="1">Government</option>
+                                                <option value="2">Private</option>
+                                                <option value="3">Both</option>
                                                 <option value="3">Others</option>
                                             </select>
                                         </div>
                                         <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>Father's Name</label>
-                                            <input type="text" placeholder="" class="form-control">
-                                        </div>
-                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>Mother's Name</label>
-                                            <input type="text" placeholder="" class="form-control">
-                                        </div>
-                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>Date Of Birth *</label>
-                                            <input type="text" placeholder="dd/mm/yyyy"
-                                                class="form-control air-datepicker" data-position='bottom right'>
-                                            <i class="far fa-calendar-alt"></i>
-                                        </div>
-                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>Religion *</label>
-                                            <select class="select2">
-                                                <option value="">Please Select *</option>
-                                                <option value="1">Islam</option>
-                                                <option value="2">Christian</option>
-                                                <option value="3">Hindu</option>
-                                                <option value="4">Buddhish</option>
-                                                <option value="5">Others</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>Joining Data *</label>
-                                            <input type="text" placeholder="dd/mm/yyyy"
-                                                class="form-control air-datepicker" data-position='bottom right'>
-                                            <i class="far fa-calendar-alt"></i>
-                                        </div>
-                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>E-Mail</label>
-                                            <input type="email" placeholder="" class="form-control">
-                                        </div>
-                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>Subject *</label>
+                                            <label>Board Affiliated To *</label>
                                             <select class="select2">
                                                 <option value="">Please Select*</option>
-                                                <option value="1">Mathmetics</option>
-                                                <option value="2">English</option>
-                                                <option value="3">Chemistry</option>
-                                                <option value="3">Biology</option>
+                                                <option value="1">CBSE</option>
+                                                <option value="2">ICSE</option>
+                                                <option value="3">WB</option>
                                                 <option value="3">Others</option>
                                             </select>
                                         </div>
                                         <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>Class *</label>
-                                            <select class="select2">
-                                                <option value="">Please Select Class *</option>
-                                                <option value="1">Play</option>
-                                                <option value="2">Nursery</option>
-                                                <option value="3">One</option>
-                                                <option value="3">Two</option>
-                                                <option value="3">Three</option>
-                                                <option value="3">Four</option>
-                                                <option value="3">Five</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>Section *</label>
-                                            <select class="select2">
-                                                <option value="">Please Select Section *</option>
-                                                <option value="1">Pink</option>
-                                                <option value="2">Blue</option>
-                                                <option value="3">Bird</option>
-                                                <option value="3">Rose</option>
-                                                <option value="3">Red</option>
-                                            </select>
-                                        </div>
-                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>ID No *</label>
+                                            <label>Registration/Affiliation No. *</label>
                                             <input type="text" placeholder="" class="form-control">
                                         </div>
                                         <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                            <label>Phone</label>
+                                            <label>Medium *</label>
+                                            <select class="select2">
+                                                <option value="">Please Select*</option>
+                                                <option value="1">English</option>
+                                                <option value="2">Hindi</option>
+                                                <option value="3">Bengali</option>
+                                                <option value="3">Others</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Student Type *</label>
+                                            <select class="select2">
+                                                <option value="">Please Select*</option>
+                                                <option value="1">Boys</option>
+                                                <option value="1">Girls</option>
+                                                <option value="1">Co-ed</option>
+                                                <option value="1">Others</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-9 col-lg-9 col-12 form-group">
+                                            <label>Short Bio/description *</label>
                                             <input type="text" placeholder="" class="form-control">
-                                        </div>
-                                        <div class="col-lg-6 col-12 form-group">
-                                            <label>Adress *</label>
-                                            <textarea class="textarea form-control" name="message" id="form-message"
-                                                cols="10" rows="4"></textarea>
-                                        </div>
-                                        <div class="col-12 form-group mg-t-8">
-                                            <button type="submit"
-                                                class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">Save</button>
-                                            <button type="reset"
-                                                class="btn-fill-lg bg-blue-dark btn-hover-yellow">Reset</button>
                                         </div>
                                     </div>
                                 </form>
+                              </div>
                             </div>
+                          </div>
                         </div>
+                                <div class="row">
+                                    <div class="col-12">
+                                        <div class="card">
+                                            <div class="card-body">
+                                                <div class="heading-layout1">
+                                                    <div class="item-title">
+                                                        <h3>Session</h3>
+                                                    </div>
+                                                    <div class="dropdown">
+                                                        <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                                            aria-expanded="false">...</a>
+
+                                                        <div class="dropdown-menu dropdown-menu-right">
+                                                            <a class="dropdown-item" href="#"><i
+                                                                    class="fas fa-times text-orange-red"></i>Close</a>
+                                                            <a class="dropdown-item" href="#"><i
+                                                                    class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                                            <a class="dropdown-item" href="#"><i
+                                                                    class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                <form class="new-added-form">
+
+                                    <div class="row">
+                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                          <label>Active Session *</label>
+                                          <select class="select2">
+                                              <option value="">Please Select*</option>
+                                              <option value="1">2020-21</option>
+                                              <option value="2">2019-20</option>
+                                              <option value="3">2018-19</option>
+                                          </select>
+                                      </div>
+
+                                      </div>
+                                    </form>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-12">
+                                    <div class="card">
+                                        <div class="card-body">
+                                            <div class="heading-layout1">
+                                                <div class="item-title">
+                                                    <h3>Attendance</h3>
+                                                </div>
+                                                <div class="dropdown">
+                                                    <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                                        aria-expanded="false">...</a>
+
+                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                        <a class="dropdown-item" href="#"><i
+                                                                class="fas fa-times text-orange-red"></i>Close</a>
+                                                        <a class="dropdown-item" href="#"><i
+                                                                class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                                        <a class="dropdown-item" href="#"><i
+                                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                            <form class="new-added-form">
+
+                                <div class="row">
+                                  <div class="col-xl-6 col-lg-6 col-12 form-group">
+                                    <form class="" action="index.html" method="post">
+
+                                      <label>Attendance Type:</label>
+                                      <fieldset>
+
+                                        <div class="some-class">
+                                              <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                                              <label for="day">Day-wise</label>
+                                              <input type="radio" class="radio" name="period" value="period" />
+                                              <label for="period">Period-wise</label>
+                                        </div>
+
+                                      </fieldset>
+
+                                        </form>
+                                    </div>
+
+                                  <div class="col-xl-6 col-lg-6 col-12 form-group">
+                                      <label>Biometric Attendance: *</label>
+                                      <fieldset>
+
+                                        <div class="some-class">
+                                              <input type="radio" class="radio" name="disable" value="disable-ans" checked/>
+                                              <label for="disable-ans">Enable</label>
+                                              <input type="radio" class="radio" name="enable" value="enable-ans" disabled />
+                                              <label for="enable-ans">Disable</label>
+                                        </div>
+
+                                      </fieldset>
+                                  </div>
+                                  <div class="col-xl-12 col-lg-12 col-12 form-group">
+                                      <label>Devices Permission (Separate By Coma) *</label>
+                                    <input type="text" placeholder="" class="form-control">
+                                  </div>
+
+                                  <div class="col-12 form-group mg-t-8">
+                                      <button type="submit"
+                                          class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">Save</button>
+                                      <button type="reset"
+                                          class="btn-fill-lg bg-blue-dark btn-hover-yellow">Reset</button>
+                                  </div>
+                                  </div>
+                                </form>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+
+                        <!-- new card -->
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="card">
+                                    <div class="card-body">
+                                        <div class="heading-layout1">
+                                            <div class="item-title">
+                                                <h3>Language Settings</h3>
+                                            </div>
+                                            <div class="dropdown">
+                                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                                    aria-expanded="false">...</a>
+
+                                                <div class="dropdown-menu dropdown-menu-right">
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-times text-orange-red"></i>Close</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                                    <a class="dropdown-item" href="#"><i
+                                                            class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                                </div>
+                                            </div>
+                                        </div>
+                        <form class="new-added-form">
+
+                            <div class="row">
+                              <div class="col-xl-6 col-lg-6 col-12 form-group">
+                                  <label>System Language *</label>
+                                  <select class="select2">
+                                      <option value="">Please Select*</option>
+                                      <option value="1">English</option>
+                                      <option value="2">Hindi</option>
+                                      <option value="3">Arabic</option>
+                                  </select>
+                              </div>
+                              <div class="col-xl-6 col-lg-6 col-12 form-group">
+                                  <label>Language RTL Text Mode *</label>
+                                  <select class="select2">
+                                      <option value="">Please Select*</option>
+                                      <option value="1">Disable</option>
+                                      <option value="2">Enable</option>
+                                  </select>
+                              </div>
+
+                              </div>
+                            </form>
+                          </div>
+                        </div>
+                      </div>
                     </div>
-                    <div class="col-4-xxxl col-xl-5">
-                        <div class="card account-settings-box height-auto">
+
+                    <div class="row">
+                        <div class="col-12">
+                            <div class="card">
+                                <div class="card-body">
+                                    <div class="heading-layout1">
+                                        <div class="item-title">
+                                            <h3>Date-Time Settings</h3>
+                                        </div>
+                                        <div class="dropdown">
+                                            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                                aria-expanded="false">...</a>
+
+                                            <div class="dropdown-menu dropdown-menu-right">
+                                                <a class="dropdown-item" href="#"><i
+                                                        class="fas fa-times text-orange-red"></i>Close</a>
+                                                <a class="dropdown-item" href="#"><i
+                                                        class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                                <a class="dropdown-item" href="#"><i
+                                                        class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                            </div>
+                                        </div>
+                                    </div>
+                    <form class="new-added-form">
+
+                        <div class="row">
+                          <div class="col-xl-6 col-lg-6 col-12 form-group">
+                              <label>Date-Time Format *</label>
+                              <select class="select2">
+                                  <option value="">Please Select*</option>
+                                  <option value="1">DD-MM-YYYY</option>
+                                  <option value="2">MM-DD-YYYY</option>
+                                  <option value="3">YYYY-DD-MM</option>
+                                  <option value="3">YYYY-MM-DD</option>
+                              </select>
+                          </div>
+                          <div class="col-xl-6 col-lg-6 col-12 form-group">
+                              <label>Timezone *</label>
+                              <select class="select2">
+                                  <option value="">Please Select*</option>
+                                  <option value="1">(GMT+05:30) Asia, Kolkata</option>
+                              </select>
+                          </div>
+
+                          </div>
+                        </form>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <!-- ............. -->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
                             <div class="card-body">
-                                <div class="heading-layout1 mg-b-20">
+                                <div class="heading-layout1">
                                     <div class="item-title">
-                                        <h3>All User</h3>
+                                        <h3>Currency Settings</h3>
                                     </div>
                                     <div class="dropdown">
                                         <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
@@ -629,150 +843,313 @@
                                         </div>
                                     </div>
                                 </div>
-                                <div class="all-user-box">
-                                    <div class="media media-none--xs active">
-                                        <div class="item-img">
-                                            <img src="img/figure/user1.jpg" class="media-img-auto" alt="user">
-                                        </div>
-                                        <div class="media-body space-md">
-                                            <h5 class="item-title">Steven Johnson</h5>
-                                            <div class="item-subtitle">Super Admin</div>
-                                        </div>
-                                    </div>
-                                    <div class="media media-none--xs">
-                                        <div class="item-img">
-                                            <img src="img/figure/user2.jpg" class="media-img-auto" alt="user">
-                                        </div>
-                                        <div class="media-body space-md">
-                                            <h5 class="item-title">Maria Jane</h5>
-                                            <div class="item-subtitle">Super Admin</div>
-                                        </div>
-                                    </div>
-                                    <div class="media media-none--xs">
-                                        <div class="item-img">
-                                            <img src="img/figure/user3.jpg" class="media-img-auto" alt="user">
-                                        </div>
-                                        <div class="media-body space-md">
-                                            <h5 class="item-title">Andrew Walles</h5>
-                                            <div class="item-subtitle">Super Admin</div>
-                                        </div>
-                                    </div>
-                                    <div class="media media-none--xs">
-                                        <div class="item-img">
-                                            <img src="img/figure/user4.jpg" class="media-img-auto" alt="user">
-                                        </div>
-                                        <div class="media-body space-md">
-                                            <h5 class="item-title">Walter Emma</h5>
-                                            <div class="item-subtitle">Super Admin</div>
-                                        </div>
-                                    </div>
-                                    <div class="media media-none--xs">
-                                        <div class="item-img">
-                                            <img src="img/figure/user5.jpg" class="media-img-auto" alt="user">
-                                        </div>
-                                        <div class="media-body space-md">
-                                            <h5 class="item-title">Stuart Johnson</h5>
-                                            <div class="item-subtitle">Super Admin</div>
-                                        </div>
+                <form class="new-added-form">
+
+                    <div class="row">
+                      <div class="col-xl-6 col-lg-6 col-12 form-group">
+                          <label>Currency Type *</label>
+                          <select class="select2">
+                              <option value="">Please Select*</option>
+                              <option value="1">INR</option>
+                          </select>
+                      </div>
+                      <div class="col-xl-6 col-lg-6 col-12 form-group">
+                          <label>Currency Symbol *</label>
+                          <select class="select2">
+                              <option value="">Please Select*</option>
+                              <option value="1">Rs.</option>
+                          </select>
+                      </div>
+
+                      </div>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="heading-layout1">
+                                <div class="item-title">
+                                    <h3>Language Settings</h3>
+                                </div>
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                        aria-expanded="false">...</a>
+
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-times text-orange-red"></i>Close</a>
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
                                     </div>
                                 </div>
                             </div>
+            <form class="new-added-form">
+
+                <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-12 form-group">
+                      <label>System Language *</label>
+                      <select class="select2">
+                          <option value="">Please Select*</option>
+                          <option value="1">English</option>
+                          <option value="2">Hindi</option>
+                          <option value="3">Arabic</option>
+                      </select>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-12 form-group">
+                      <label>Language RTL Text Mode *</label>
+                      <select class="select2">
+                          <option value="">Please Select*</option>
+                          <option value="1">Disable</option>
+                          <option value="2">Enable</option>
+                      </select>
+                  </div>
+
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="heading-layout1">
+                            <div class="item-title">
+                                <h3>Student Admission No. Auto Generation</h3>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                    aria-expanded="false">...</a>
+
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="#"><i
+                                            class="fas fa-times text-orange-red"></i>Close</a>
+                                    <a class="dropdown-item" href="#"><i
+                                            class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                    <a class="dropdown-item" href="#"><i
+                                            class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                </div>
+                            </div>
+                        </div>
+        <form class="new-added-form">
+
+            <div class="row">
+              <div class="col-xl-3 col-lg-6 col-12 form-group">
+                  <p>Auto Generate Admission No *</p>
+                  <fieldset>
+
+                    <div class="some-class">
+                          <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                          <label for="day">Enable</label>
+                          <input type="radio" class="radio" name="period" value="period" />
+                          <label for="period">Disable</label>
+                    </div>
+
+                  </fieldset>
+              </div>
+              <div class="col-xl-3 col-lg-6 col-12 form-group">
+                  <label>Admission No Prefix *</label>
+                  <input type="text" placeholder="" class="form-control">
+              </div>
+              <div class="col-xl-3 col-lg-6 col-12 form-group">
+                  <label>Admission No Digit  *</label>
+                  <input type="text" placeholder="" class="form-control">
+              </div>
+
+              <div class="col-xl-3 col-lg-6 col-12 form-group">
+                  <label>Admission No. Start From  *</label>
+                  <input type="text" placeholder="" class="form-control">
+              </div>
+
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="heading-layout1">
+                        <div class="item-title">
+                            <h3>Staff/Emp ID Auto Generation</h3>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">...</a>
+
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><i
+                                        class="fas fa-times text-orange-red"></i>Close</a>
+                                <a class="dropdown-item" href="#"><i
+                                        class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                <a class="dropdown-item" href="#"><i
+                                        class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                            </div>
                         </div>
                     </div>
-                    <div class="col-8-xxxl col-xl-7">
-                        <div class="card account-settings-box">
-                            <div class="card-body">
-                                <div class="heading-layout1 mg-b-20">
-                                    <div class="item-title">
-                                        <h3>User Details</h3>
-                                    </div>
-                                    <div class="dropdown">
-                                        <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                                            aria-expanded="false">...</a>
+    <form class="new-added-form">
 
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <a class="dropdown-item" href="#"><i
-                                                    class="fas fa-times text-orange-red"></i>Close</a>
-                                            <a class="dropdown-item" href="#"><i
-                                                    class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                            <a class="dropdown-item" href="#"><i
-                                                    class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+        <div class="row">
+          <div class="col-xl-3 col-lg-6 col-12 form-group">
+              <p>Auto Staff/Emp ID *</p>
+              <fieldset>
+
+                <div class="some-class">
+                      <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                      <label for="day">Enable</label>
+                      <input type="radio" class="radio" name="period" value="period" />
+                      <label for="period">Disable</label>
+                </div>
+
+              </fieldset>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-12 form-group">
+              <label>Staff/Emp ID Prefix *</label>
+              <input type="text" placeholder="" class="form-control">
+          </div>
+          <div class="col-xl-3 col-lg-6 col-12 form-group">
+              <label>Staff/Emp ID Digit  *</label>
+              <input type="text" placeholder="" class="form-control">
+          </div>
+
+          <div class="col-xl-3 col-lg-6 col-12 form-group">
+              <label>Staff/Emp ID Start From  *</label>
+              <input type="text" placeholder="" class="form-control">
+          </div>
+
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="heading-layout1">
+                    <div class="item-title">
+                        <h3>Miscellaneous Setting</h3>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">...</a>
+
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#"><i
+                                    class="fas fa-times text-orange-red"></i>Close</a>
+                            <a class="dropdown-item" href="#"><i
+                                    class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                            <a class="dropdown-item" href="#"><i
+                                    class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                        </div>
+                    </div>
+                </div>
+<form class="new-added-form">
+
+    <div class="row">
+      <div class="col-xl-3 col-lg-6 col-12 form-group">
+          <p>Duplicate Fees Invoice *</p>
+          <fieldset>
+
+            <div class="some-class">
+                  <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                  <label for="day">Enable</label>
+                  <input type="radio" class="radio" name="period" value="period" />
+                  <label for="period">Disable</label>
+            </div>
+
+
+          </fieldset>
+      </div>
+
+        <div class="col-xl-3 col-lg-6 col-12 form-group">
+            <p>Teacher Restricted Mode *</p>
+            <fieldset>
+
+              <div class="some-class">
+                    <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                    <label for="day">Enable</label>
+                    <input type="radio" class="radio" name="period" value="period" />
+                    <label for="period">Disable</label>
+              </div>
+
+
+            </fieldset>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-12 form-group">
+            <p>Online Admission *</p>
+            <fieldset>
+
+              <div class="some-class">
+                    <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                    <label for="day">Enable</label>
+                    <input type="radio" class="radio" name="period" value="period" />
+                    <label for="period">Disable</label>
+              </div>
+
+
+            </fieldset>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-12 form-group">
+            <p>Fee-Due Master *</p>
+            <fieldset>
+
+              <div class="some-class">
+                    <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                    <label for="day">Enable</label>
+                    <input type="radio" class="radio" name="period" value="period" />
+                    <label for="period">Disable</label>
+              </div>
+
+
+            </fieldset>
+        </div>
+
+
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+</div>
+
+
+
+                                      <!--
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Active Session *</label>
+                                            <select class="select2">
+                                                <option value="">Please Select*</option>
+                                                <option value="1">2020-21</option>
+                                                <option value="2">2019-20</option>
+                                                <option value="3">2018-19</option>
+                                            </select>
                                         </div>
-                                    </div>
-                                </div>
-                                <div class="user-details-box">
-                                    <div class="item-img">
-                                        <img src="img/figure/user.jpg" alt="user">
-                                    </div>
-                                    <div class="item-content">
-                                        <div class="info-table table-responsive">
-                                            <table class="table text-nowrap">
-                                                <tbody>
-                                                    <tr>
-                                                        <td>Name:</td>
-                                                        <td class="font-medium text-dark-medium">Steven Johnson</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>User Type:</td>
-                                                        <td class="font-medium text-dark-medium">Super Admin</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Gender:</td>
-                                                        <td class="font-medium text-dark-medium">Male</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Father Name:</td>
-                                                        <td class="font-medium text-dark-medium">Steve Jones</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Mother Name:</td>
-                                                        <td class="font-medium text-dark-medium">Naomi Rose</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Date Of Birth:</td>
-                                                        <td class="font-medium text-dark-medium">07.08.2016</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Religion:</td>
-                                                        <td class="font-medium text-dark-medium">Islam</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Joining Date:</td>
-                                                        <td class="font-medium text-dark-medium">07.08.2016</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>E-mail:</td>
-                                                        <td class="font-medium text-dark-medium">stevenjohnson@gmail.com
-                                                        </td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Subject:</td>
-                                                        <td class="font-medium text-dark-medium">English</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Class:</td>
-                                                        <td class="font-medium text-dark-medium">2</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Section:</td>
-                                                        <td class="font-medium text-dark-medium">Pink</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>ID No:</td>
-                                                        <td class="font-medium text-dark-medium">10005</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Address:</td>
-                                                        <td class="font-medium text-dark-medium">House #10, Road #6,
-                                                            Australia</td>
-                                                    </tr>
-                                                    <tr>
-                                                        <td>Phone:</td>
-                                                        <td class="font-medium text-dark-medium">+ 88 98568888418</td>
-                                                    </tr>
-                                                </tbody>
-                                            </table>
-                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Session Start Month *</label>
+                                            <select class="select2">
+                                                <option value="">Please Select*</option>
+                                                <option value="1">January</option>
+                                                <option value="2">Februry</option>
+                                                <option value="3">March</option>
+
+
                                     </div>
                                 </div>
                             </div>

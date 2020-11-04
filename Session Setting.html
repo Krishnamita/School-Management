@@ -472,13 +472,22 @@
 
                     <div class="row">
                         <div class="col-sm-4">
-                            <div class="card">        
+                            <div class="card">
                                 <div class="card-body">
                                     <h5 class="card-title"><b>Add Session</b></h5>
                                     <hr>
                                     <form action="post">
-                                    <p class="card-text session-text">Session</p>
-                                        <input class="session-input" type="text" name="session" placeholder="Enter session to add">
+                                    <p class="card-text session-text">Session Name</p>
+                                    <input type="text" placeholder="" class="form-control">
+                                    <p class="card-text session-text">Session Type</p>
+                                    <select class="select2">
+                                        <option value="">Please Select*</option>
+                                        <option value="1">Yearly</option>
+                                        <option value="2">Half-Yearly</option>
+                                        <option value="3">Quarterly</option>
+                                    </select>
+                                    <p class="card-text session-text">Session Start Date</p>
+                                        <input type="text" placeholder="" class="form-control">
                                         <a href="#" class="btn btn-dark btn-lg">Save</a>
                                     </form>
                                 </div>
@@ -496,12 +505,11 @@
                                             <thead>
                                                 <tr>
                                                     <th>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input checkAll">
-                                                            <label class="form-check-label">Day</label>
-                                                        </div>
+
                                                     </th>
                                                     <th>Session</th>
+                                                    <th>Session Type</th>
+                                                    <th>Session Start Date</th>
                                                     <th>Status</th>
                                                     <th>Date of Creation</th>
                                                     <th>Modified on</th>
@@ -514,12 +522,11 @@
                                             <tbody>
                                                 <tr>
                                                     <td>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input">
-                                                            <label class="form-check-label">Sunday</label>
-                                                        </div>
+
                                                     </td>
                                                     <td>2020-21</td>
+                                                    <td>Yearly</td>
+                                                    <td>01-04-2020</td>
                                                     <td>Active</td>
                                                     <td>03-11-2020</td>
                                                     <td>03-11-2020</td>
@@ -539,12 +546,11 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input">
-                                                            <label class="form-check-label">Monday</label>
-                                                        </div>
+
                                                     </td>
                                                     <td>2019-20</td>
+                                                    <td>Yearly</td>
+                                                    <td>01-04-2019</td>
                                                     <td>Active</td>
                                                     <td>03-11-2019</td>
                                                     <td>03-11-2019</td>
@@ -566,12 +572,11 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input">
-                                                            <label class="form-check-label">Tuesday</label>
-                                                        </div>
+
                                                     </td>
                                                 <td>2018-19</td>
+                                                <td>Yearly</td>
+                                                <td>01-04-2018</td>
                                                 <td>Active</td>
                                                 <td>03-11-2018</td>
                                                 <td>03-11-2018</td>
@@ -591,12 +596,11 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input">
-                                                            <label class="form-check-label">Wednesday</label>
-                                                        </div>
+
                                                     </td>
                                                 <td>2017-18</td>
+                                                <td>Yearly</td>
+                                                <td>01-04-2017</td>
                                                 <td>Active</td>
                                                 <td>03-11-2017</td>
                                                 <td>03-11-2017</td>
@@ -616,12 +620,11 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input">
-                                                            <label class="form-check-label">Thursday</label>
-                                                        </div>
+
                                                     </td>
                                                     <td>2016-17</td>
+                                                    <td>Yearly</td>
+                                                    <td>01-04-2016</td>
                                                     <td>Active</td>
                                                     <td>03-11-2016</td>
                                                     <td>03-11-2016</td>
@@ -641,12 +644,11 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input">
-                                                            <label class="form-check-label">Friday</label>
-                                                        </div>
+
                                                     </td>
                                                 <td>2015-16</td>
+                                                <td>Yearly</td>
+                                                <td>01-04-2015</td>
                                                 <td>Active</td>
                                                 <td>03-11-2015</td>
                                                 <td>03-11-2015</td>
@@ -666,12 +668,11 @@
                                                 </tr>
                                                 <tr>
                                                     <td>
-                                                        <div class="form-check">
-                                                            <input type="checkbox" class="form-check-input">
-                                                            <label class="form-check-label">Saturday</label>
-                                                        </div>
+
                                                     </td>
                                                 <td>2014-15</td>
+                                                <td>Yearly</td>
+                                                <td>01-04-2014</td>
                                                 <td>Active</td>
                                                 <td>03-11-2014</td>
                                                 <td>03-11-2014</td>
@@ -692,7 +693,7 @@
                                             </tbody>
                                         </table>
                                     </div>
-                                    
+
                                 </div>
                             </div>
                         </div>

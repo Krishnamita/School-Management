@@ -491,12 +491,16 @@
                                 <form class="new-added-form">
 
                                     <div class="row">
-                                        <div class="col-xl-9 col-lg-9 col-12 form-group">
+                                        <div class="col-xl-6 col-lg-6 col-12 form-group">
                                             <label>School Name *</label>
                                             <input type="text" placeholder="" class="form-control">
                                         </div>
                                         <div class="col-xl-3 col-lg-3 col-12 form-group">
                                             <label>School Code/ID *</label>
+                                            <input type="text" placeholder="" class="form-control">
+                                        </div>
+                                        <div class="col-xl-3 col-lg-3 col-12 form-group">
+                                            <label>Establishment Year *</label>
                                             <input type="text" placeholder="" class="form-control">
                                         </div>
                                         <div class="col-xl-6 col-lg-6 col-12 form-group">
@@ -539,6 +543,54 @@
                                             <label>Website URL *</label>
                                             <input type="text" placeholder="" class="form-control">
                                         </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>School Type *</label>
+                                            <select class="select2">
+                                                <option value="">Please Select*</option>
+                                                <option value="1">Government</option>
+                                                <option value="2">Private</option>
+                                                <option value="3">Both</option>
+                                                <option value="3">Others</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Board Affiliated To *</label>
+                                            <select class="select2">
+                                                <option value="">Please Select*</option>
+                                                <option value="1">CBSE</option>
+                                                <option value="2">ICSE</option>
+                                                <option value="3">WB</option>
+                                                <option value="3">Others</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Registration/Affiliation No. *</label>
+                                            <input type="text" placeholder="" class="form-control">
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Medium *</label>
+                                            <select class="select2">
+                                                <option value="">Please Select*</option>
+                                                <option value="1">English</option>
+                                                <option value="2">Hindi</option>
+                                                <option value="3">Bengali</option>
+                                                <option value="3">Others</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Student Type *</label>
+                                            <select class="select2">
+                                                <option value="">Please Select*</option>
+                                                <option value="1">Boys</option>
+                                                <option value="1">Girls</option>
+                                                <option value="1">Co-ed</option>
+                                                <option value="1">Others</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-9 col-lg-9 col-12 form-group">
+                                            <label>Short Bio/description *</label>
+                                            <input type="text" placeholder="" class="form-control">
+                                        </div>
                                     </div>
                                 </form>
                               </div>
@@ -577,15 +629,6 @@
                                               <option value="1">2020-21</option>
                                               <option value="2">2019-20</option>
                                               <option value="3">2018-19</option>
-                                          </select>
-                                      </div>
-                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
-                                          <label>Session Start Month *</label>
-                                          <select class="select2">
-                                              <option value="">Please Select*</option>
-                                              <option value="1">January</option>
-                                              <option value="2">Februry</option>
-                                              <option value="3">March</option>
                                           </select>
                                       </div>
 
@@ -645,9 +688,9 @@
 
                                         <div class="some-class">
                                               <input type="radio" class="radio" name="disable" value="disable-ans" checked/>
-                                              <label for="disable-ans">Day-wise</label>
+                                              <label for="disable-ans">Enable</label>
                                               <input type="radio" class="radio" name="enable" value="enable-ans" disabled />
-                                              <label for="enable-ans">Period-wise</label>
+                                              <label for="enable-ans">Disable</label>
                                         </div>
 
                                       </fieldset>
@@ -804,7 +847,7 @@
                           </select>
                       </div>
                       <div class="col-xl-6 col-lg-6 col-12 form-group">
-                          <label>Currency Sysmbol *</label>
+                          <label>Currency Symbol *</label>
                           <select class="select2">
                               <option value="">Please Select*</option>
                               <option value="1">Rs.</option>
@@ -817,6 +860,270 @@
                 </div>
               </div>
             </div>
+
+            <div class="row">
+                <div class="col-12">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="heading-layout1">
+                                <div class="item-title">
+                                    <h3>Language Settings</h3>
+                                </div>
+                                <div class="dropdown">
+                                    <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                        aria-expanded="false">...</a>
+
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-times text-orange-red"></i>Close</a>
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                    </div>
+                                </div>
+                            </div>
+            <form class="new-added-form">
+
+                <div class="row">
+                  <div class="col-xl-6 col-lg-6 col-12 form-group">
+                      <label>System Language *</label>
+                      <select class="select2">
+                          <option value="">Please Select*</option>
+                          <option value="1">English</option>
+                          <option value="2">Hindi</option>
+                          <option value="3">Arabic</option>
+                      </select>
+                  </div>
+                  <div class="col-xl-6 col-lg-6 col-12 form-group">
+                      <label>Language RTL Text Mode *</label>
+                      <select class="select2">
+                          <option value="">Please Select*</option>
+                          <option value="1">Disable</option>
+                          <option value="2">Enable</option>
+                      </select>
+                  </div>
+
+                  </div>
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="row">
+            <div class="col-12">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="heading-layout1">
+                            <div class="item-title">
+                                <h3>Student Admission No. Auto Generation</h3>
+                            </div>
+                            <div class="dropdown">
+                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                    aria-expanded="false">...</a>
+
+                                <div class="dropdown-menu dropdown-menu-right">
+                                    <a class="dropdown-item" href="#"><i
+                                            class="fas fa-times text-orange-red"></i>Close</a>
+                                    <a class="dropdown-item" href="#"><i
+                                            class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                    <a class="dropdown-item" href="#"><i
+                                            class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                </div>
+                            </div>
+                        </div>
+        <form class="new-added-form">
+
+            <div class="row">
+              <div class="col-xl-3 col-lg-6 col-12 form-group">
+                  <p>Auto Generate Admission No *</p>
+                  <fieldset>
+
+                    <div class="some-class">
+                          <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                          <label for="day">Enable</label>
+                          <input type="radio" class="radio" name="period" value="period" />
+                          <label for="period">Disable</label>
+                    </div>
+
+                  </fieldset>
+              </div>
+              <div class="col-xl-3 col-lg-6 col-12 form-group">
+                  <label>Admission No Prefix *</label>
+                  <input type="text" placeholder="" class="form-control">
+              </div>
+              <div class="col-xl-3 col-lg-6 col-12 form-group">
+                  <label>Admission No Digit  *</label>
+                  <input type="text" placeholder="" class="form-control">
+              </div>
+
+              <div class="col-xl-3 col-lg-6 col-12 form-group">
+                  <label>Admission No. Start From  *</label>
+                  <input type="text" placeholder="" class="form-control">
+              </div>
+
+
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12">
+            <div class="card">
+                <div class="card-body">
+                    <div class="heading-layout1">
+                        <div class="item-title">
+                            <h3>Staff/Emp ID Auto Generation</h3>
+                        </div>
+                        <div class="dropdown">
+                            <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                aria-expanded="false">...</a>
+
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item" href="#"><i
+                                        class="fas fa-times text-orange-red"></i>Close</a>
+                                <a class="dropdown-item" href="#"><i
+                                        class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                <a class="dropdown-item" href="#"><i
+                                        class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                            </div>
+                        </div>
+                    </div>
+    <form class="new-added-form">
+
+        <div class="row">
+          <div class="col-xl-3 col-lg-6 col-12 form-group">
+              <p>Auto Staff/Emp ID *</p>
+              <fieldset>
+
+                <div class="some-class">
+                      <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                      <label for="day">Enable</label>
+                      <input type="radio" class="radio" name="period" value="period" />
+                      <label for="period">Disable</label>
+                </div>
+
+              </fieldset>
+          </div>
+          <div class="col-xl-3 col-lg-6 col-12 form-group">
+              <label>Staff/Emp ID Prefix *</label>
+              <input type="text" placeholder="" class="form-control">
+          </div>
+          <div class="col-xl-3 col-lg-6 col-12 form-group">
+              <label>Staff/Emp ID Digit  *</label>
+              <input type="text" placeholder="" class="form-control">
+          </div>
+
+          <div class="col-xl-3 col-lg-6 col-12 form-group">
+              <label>Staff/Emp ID Start From  *</label>
+              <input type="text" placeholder="" class="form-control">
+          </div>
+
+
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <div class="heading-layout1">
+                    <div class="item-title">
+                        <h3>Miscellaneous Setting</h3>
+                    </div>
+                    <div class="dropdown">
+                        <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">...</a>
+
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item" href="#"><i
+                                    class="fas fa-times text-orange-red"></i>Close</a>
+                            <a class="dropdown-item" href="#"><i
+                                    class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                            <a class="dropdown-item" href="#"><i
+                                    class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                        </div>
+                    </div>
+                </div>
+<form class="new-added-form">
+
+    <div class="row">
+      <div class="col-xl-3 col-lg-6 col-12 form-group">
+          <p>Duplicate Fees Invoice *</p>
+          <fieldset>
+
+            <div class="some-class">
+                  <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                  <label for="day">Enable</label>
+                  <input type="radio" class="radio" name="period" value="period" />
+                  <label for="period">Disable</label>
+            </div>
+
+
+          </fieldset>
+      </div>
+
+        <div class="col-xl-3 col-lg-6 col-12 form-group">
+            <p>Teacher Restricted Mode *</p>
+            <fieldset>
+
+              <div class="some-class">
+                    <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                    <label for="day">Enable</label>
+                    <input type="radio" class="radio" name="period" value="period" />
+                    <label for="period">Disable</label>
+              </div>
+
+
+            </fieldset>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-12 form-group">
+            <p>Online Admission *</p>
+            <fieldset>
+
+              <div class="some-class">
+                    <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                    <label for="day">Enable</label>
+                    <input type="radio" class="radio" name="period" value="period" />
+                    <label for="period">Disable</label>
+              </div>
+
+
+            </fieldset>
+        </div>
+        <div class="col-xl-3 col-lg-6 col-12 form-group">
+            <p>Fee-Due Master *</p>
+            <fieldset>
+
+              <div class="some-class">
+                    <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                    <label for="day">Enable</label>
+                    <input type="radio" class="radio" name="period" value="period" />
+                    <label for="period">Disable</label>
+              </div>
+
+
+            </fieldset>
+        </div>
+
+
+      </div>
+    </form>
+  </div>
+</div>
+</div>
+</div>
+
+
+
                                       <!--
                                         <div class="col-xl-3 col-lg-6 col-12 form-group">
                                             <label>Active Session *</label>
