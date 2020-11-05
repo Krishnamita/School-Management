@@ -12,6 +12,8 @@
     <title>AKKHOR | Account Setting</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link href="sidebar.html" rel="sidebar" />
     <!-- Favicon -->
     <link rel="shortcut icon" type="image/x-icon" href="img/favicon.png">
     <!-- Normalize CSS -->
@@ -422,26 +424,26 @@
                                     class="flaticon-settings"></i><span>Setup</span></a>
                             <ul class="nav sub-group-menu">
                                 <li class="nav-item">
-                                    <a href="setup.html" class="nav-link"><i class="fas fa-angle-right"></i>Session
+                                    <a href="Session Setting.html" class="nav-link"><i class="fas fa-angle-right"></i>Session
                                         Settings</a>
                                 </li>
                                 <!-- Academic/ Session creation -->
                                 <li class="nav-item">
-                                    <a href="#" class="nav-link"><i class="fas fa-angle-right"></i>School Settings</a>
+                                    <a href="School Setting.html" class="nav-link"><i class="fas fa-angle-right"></i>School Settings</a>
                                 </li>
                                 <!-- school creation -->
                                 <li class="nav-item">
-                                    <a href="setup.html" class="nav-link"><i class="fas fa-angle-right"></i>Branch
+                                    <a href="Branch Settings.html" class="nav-link"><i class="fas fa-angle-right"></i>Branch
                                         Settings</a>
                                 </li>
                                 <!-- Branch creation -->
                                 <li class="nav-item">
-                                    <a href="setup.html" class="nav-link"><i class="fas fa-angle-right"></i>General
+                                    <a href="#" class="nav-link"><i class="fas fa-angle-right"></i>General
                                         Settings</a>
 
                                 </li>
                                 <li class="nav-item">
-                                    <a href="setup.html" class="nav-link"><i class="fas fa-angle-right"></i>Operational
+                                    <a href="#" class="nav-link"><i class="fas fa-angle-right"></i>Operational
                                         Settings</a>
                                 </li>
 
@@ -671,9 +673,9 @@
                                       <fieldset>
 
                                         <div class="some-class">
-                                              <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                                              <input type="radio" class="radio" name="attendance-type" value="day"  checked/>
                                               <label for="day">Day-wise</label>
-                                              <input type="radio" class="radio" name="period" value="period" />
+                                              <input type="radio" class="radio" name="attendance-type" value="period" />
                                               <label for="period">Period-wise</label>
                                         </div>
 
@@ -686,11 +688,11 @@
                                       <label>Biometric Attendance: *</label>
                                       <fieldset>
 
-                                        <div class="some-class">
-                                              <input type="radio" class="radio" name="disable" value="disable-ans" checked/>
-                                              <label for="disable-ans">Enable</label>
-                                              <input type="radio" class="radio" name="enable" value="enable-ans" disabled />
-                                              <label for="enable-ans">Disable</label>
+                                        <div class="Attendance">
+                                              <input type="radio" class="radio" name="biometric-attendance" value="disable-attendance" checked/>
+                                              <label for="disable-ans">Disable</label>
+                                              <input type="radio" class="radio" name="biometric-attendance" value="enable-attendance" disabled />
+                                              <label for="enable-ans">Enable</label>
                                         </div>
 
                                       </fieldset>
@@ -749,12 +751,17 @@
                                   </select>
                               </div>
                               <div class="col-xl-6 col-lg-6 col-12 form-group">
-                                  <label>Language RTL Text Mode *</label>
-                                  <select class="select2">
-                                      <option value="">Please Select*</option>
-                                      <option value="1">Disable</option>
-                                      <option value="2">Enable</option>
-                                  </select>
+                                  <p>Language RTL Text Mode *</p>
+                                  <fieldset>
+
+                                    <div class="Language">
+                                          <input type="radio" class="radio" name="language" value="disable-lang" checked/>
+                                          <label for="disable-ans">Disable</label>
+                                          <input type="radio" class="radio" name="language" value="enable-lang"  />
+                                          <label for="enable-ans">Enable</label>
+                                    </div>
+
+                                  </fieldset>
                               </div>
 
                               </div>
@@ -861,56 +868,6 @@
               </div>
             </div>
 
-            <div class="row">
-                <div class="col-12">
-                    <div class="card">
-                        <div class="card-body">
-                            <div class="heading-layout1">
-                                <div class="item-title">
-                                    <h3>Language Settings</h3>
-                                </div>
-                                <div class="dropdown">
-                                    <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
-                                        aria-expanded="false">...</a>
-
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="#"><i
-                                                class="fas fa-times text-orange-red"></i>Close</a>
-                                        <a class="dropdown-item" href="#"><i
-                                                class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                        <a class="dropdown-item" href="#"><i
-                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
-                                    </div>
-                                </div>
-                            </div>
-            <form class="new-added-form">
-
-                <div class="row">
-                  <div class="col-xl-6 col-lg-6 col-12 form-group">
-                      <label>System Language *</label>
-                      <select class="select2">
-                          <option value="">Please Select*</option>
-                          <option value="1">English</option>
-                          <option value="2">Hindi</option>
-                          <option value="3">Arabic</option>
-                      </select>
-                  </div>
-                  <div class="col-xl-6 col-lg-6 col-12 form-group">
-                      <label>Language RTL Text Mode *</label>
-                      <select class="select2">
-                          <option value="">Please Select*</option>
-                          <option value="1">Disable</option>
-                          <option value="2">Enable</option>
-                      </select>
-                  </div>
-
-                  </div>
-                </form>
-              </div>
-            </div>
-          </div>
-        </div>
-
         <div class="row">
             <div class="col-12">
                 <div class="card">
@@ -940,10 +897,10 @@
                   <p>Auto Generate Admission No *</p>
                   <fieldset>
 
-                    <div class="some-class">
-                          <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                    <div class="Admission">
+                          <input type="radio" class="radio" name="admission-no" value="day"  checked/>
                           <label for="day">Enable</label>
-                          <input type="radio" class="radio" name="period" value="period" />
+                          <input type="radio" class="radio" name="admission-no" value="period" />
                           <label for="period">Disable</label>
                     </div>
 
@@ -1001,9 +958,9 @@
               <fieldset>
 
                 <div class="some-class">
-                      <input type="radio" class="radio" name="daywise" value="day"  checked/>
+                      <input type="radio" class="radio" name="choice" value="day"  checked/>
                       <label for="day">Enable</label>
-                      <input type="radio" class="radio" name="period" value="period" />
+                      <input type="radio" class="radio" name="choice" value="period" />
                       <label for="period">Disable</label>
                 </div>
 
@@ -1060,10 +1017,10 @@
           <p>Duplicate Fees Invoice *</p>
           <fieldset>
 
-            <div class="some-class">
-                  <input type="radio" class="radio" name="daywise" value="day"  checked/>
+            <div class="duplicate-fees">
+                  <input type="radio" class="radio" name="fees" value="day"  checked/>
                   <label for="day">Enable</label>
-                  <input type="radio" class="radio" name="period" value="period" />
+                  <input type="radio" class="radio" name="fees" value="period" />
                   <label for="period">Disable</label>
             </div>
 
@@ -1075,10 +1032,10 @@
             <p>Teacher Restricted Mode *</p>
             <fieldset>
 
-              <div class="some-class">
-                    <input type="radio" class="radio" name="daywise" value="day"  checked/>
+              <div class="teacher-restricted">
+                    <input type="radio" class="radio" name="teacher-restricted-choice" value="day"  checked/>
                     <label for="day">Enable</label>
-                    <input type="radio" class="radio" name="period" value="period" />
+                    <input type="radio" class="radio" name="teacher-restricted-choice" value="period" />
                     <label for="period">Disable</label>
               </div>
 
@@ -1089,10 +1046,10 @@
             <p>Online Admission *</p>
             <fieldset>
 
-              <div class="some-class">
-                    <input type="radio" class="radio" name="daywise" value="day"  checked/>
+              <div class="online-adm">
+                    <input type="radio" class="radio" name="online-admission" value="day"  checked/>
                     <label for="day">Enable</label>
-                    <input type="radio" class="radio" name="period" value="period" />
+                    <input type="radio" class="radio" name="online-admission" value="period" />
                     <label for="period">Disable</label>
               </div>
 
@@ -1103,10 +1060,10 @@
             <p>Fee-Due Master *</p>
             <fieldset>
 
-              <div class="some-class">
-                    <input type="radio" class="radio" name="daywise" value="day"  checked/>
+              <div class="fee-due">
+                    <input type="radio" class="radio" name="due" value="day"  checked/>
                     <label for="day">Enable</label>
-                    <input type="radio" class="radio" name="period" value="period" />
+                    <input type="radio" class="radio" name="due" value="period" />
                     <label for="period">Disable</label>
               </div>
 
