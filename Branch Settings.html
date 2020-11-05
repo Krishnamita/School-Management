@@ -9,7 +9,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Session Settings</title>
+    <title>AKKHOR | Account Setting</title>
     <meta name="description" content="">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- Favicon -->
@@ -454,252 +454,167 @@
             <div class="dashboard-content-one">
                 <!-- Breadcubs Area Start Here -->
                 <div class="breadcrumbs-area">
-                    <h3>Setup</h3>
-                    <ul class="path">
+                    <h3>Branch Setting</h3>
+                    <ul>
                         <li>
                             <a href="index.html">Home</a>
                         </li>
-                        <li>
-                            <a href="setup.html">Setup</a>
-                        </li>
-                        <li>
-                         <a href="Session Setting.html">Session Settings</a>
-                        </li>
+                        <li><a href="setup.html">Setup</a></li>
+                        <li>Branch Setting</li>
                     </ul>
                 </div>
                 <!-- Breadcubs Area End Here -->
-                <!-- Session Settings Area Start Here -->
+                <!-- Account Settings Area Start Here -->
 
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title"><b>Add Session</b></h5>
-                                    <hr>
-                                    <form action="post">
-                                    <p class="card-text session-text">Session Name</p>
-                                    <input type="text" placeholder="" class="form-control">
-                                    <p class="card-text session-text">Session Type</p>
-                                    <select class="select2">
-                                        <option value="">Please Select*</option>
-                                        <option value="1">Yearly</option>
-                                        <option value="2">Half-Yearly</option>
-                                        <option value="3">Quarterly</option>
-                                    </select>
-                                    <p class="card-text session-text">Session Start Date</p>
-                                        <input type="text" placeholder="" class="form-control">
-                                        <a href="#" class="btn btn-dark btn-lg">Save</a>
-                                    </form>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-8">
-                            <div class="card">
-                                <div class="card-body">
-                                    <h5 class="card-title"><b>Session List</b></h5>
-                                    <hr>
-                                    <input type="search" class="session-search" placeholder="Search..." aria-controls="DataTables_Table_0" autocomplete="off">
-                                    <p class="card-text session-text">Please check and edit your session list.</p>
-                                    <div class="table-responsive">
-                                        <table class="table display data-table text-nowrap">
-                                            <thead>
-                                                <tr>
-                                                    <th>
+<!--...........................-->
+<div class="col-xl-12 col-lg-12 col-12">
+    <div class="card">
+        <div class="card-body">
+            <hr>
+            <input type="search" class="session-search" placeholder="Search..." aria-controls="DataTables_Table_0" autocomplete="off">
+            <a href="Branch Creation.html" class="btn btn-success btn-lg">Create New Branch</a>
+            <p class="card-text session-text">Please check, add and edit your Branch under existing School.</p>
+            <div class="table-responsive">
+                <table class="table display data-table text-nowrap">
+                    <thead>
+                        <tr>
+                            <th>
 
-                                                    </th>
-                                                    <th>Session</th>
-                                                    <th>Session Type</th>
-                                                    <th>Session Start Date</th>
-                                                    <th>Status</th>
-                                                    <th>Date of Creation</th>
-                                                    <th>Modified on</th>
-                                                    <th>Action</th>
-                                                    <!-- <th>Time</th> -->
-                                                    <!-- <th>Date</th> -->
-                                                    <th></th>
-                                                </tr>
-                                            </thead>
-                                            <tbody>
-                                                <tr>
-                                                    <td>
+                            </th>
+                            <th>Branch Code</th>
+                            <th>Branch Name</th>
+                            <th>School Code</th>
+                            <th>School Name</th>
+                            <th>Date of Creation</th>
+                            <th>Modified on</th>
+                            <th>Action</th>
+                            <!-- <th>Time</th> -->
+                            <!-- <th>Date</th> -->
+                            <th></th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
 
-                                                    </td>
-                                                    <td>2020-21</td>
-                                                    <td>Yearly</td>
-                                                    <td>01-04-2020</td>
-                                                    <td>Active</td>
-                                                    <td>03-11-2020</td>
-                                                    <td>03-11-2020</td>
-                                                    <td>
-                                                        <div class="dropdown">
-                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                                <span class="flaticon-more-button-of-three-dots"></span>
-                                                            </a>
-                                                            <div class="dropdown-menu dropdown-menu-right">
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                                                <a class="dropdown-item" href="#"><i
-                                                                        class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-
-                                                    </td>
-                                                    <td>2019-20</td>
-                                                    <td>Yearly</td>
-                                                    <td>01-04-2019</td>
-                                                    <td>Active</td>
-                                                    <td>03-11-2019</td>
-                                                    <td>03-11-2019</td>
-                                                    <!-- <td>10.00 am-11.00 am</td> -->
-                                                    <!-- <td>20/06/2019</td> -->
-                                                    <td>
-                                                        <div class="dropdown">
-                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                                <span class="flaticon-more-button-of-three-dots"></span>
-                                                            </a>
-                                                            <div class="dropdown-menu dropdown-menu-right">
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                                                <a class="dropdown-item" href="#"><i
-                                                                        class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-
-                                                    </td>
-                                                <td>2018-19</td>
-                                                <td>Yearly</td>
-                                                <td>01-04-2018</td>
-                                                <td>Active</td>
-                                                <td>03-11-2018</td>
-                                                <td>03-11-2018</td>
-                                                    <td>
-                                                        <div class="dropdown">
-                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                                <span class="flaticon-more-button-of-three-dots"></span>
-                                                            </a>
-                                                            <div class="dropdown-menu dropdown-menu-right">
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                                                <a class="dropdown-item" href="#"><i
-                                                                        class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-
-                                                    </td>
-                                                <td>2017-18</td>
-                                                <td>Yearly</td>
-                                                <td>01-04-2017</td>
-                                                <td>Active</td>
-                                                <td>03-11-2017</td>
-                                                <td>03-11-2017</td>
-                                                    <td>
-                                                        <div class="dropdown">
-                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                                <span class="flaticon-more-button-of-three-dots"></span>
-                                                            </a>
-                                                            <div class="dropdown-menu dropdown-menu-right">
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                                                <a class="dropdown-item" href="#"><i
-                                                                        class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-
-                                                    </td>
-                                                    <td>2016-17</td>
-                                                    <td>Yearly</td>
-                                                    <td>01-04-2016</td>
-                                                    <td>Active</td>
-                                                    <td>03-11-2016</td>
-                                                    <td>03-11-2016</td>
-                                                    <td>
-                                                        <div class="dropdown">
-                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                                <span class="flaticon-more-button-of-three-dots"></span>
-                                                            </a>
-                                                            <div class="dropdown-menu dropdown-menu-right">
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                                                <a class="dropdown-item" href="#"><i
-                                                                        class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-
-                                                    </td>
-                                                <td>2015-16</td>
-                                                <td>Yearly</td>
-                                                <td>01-04-2015</td>
-                                                <td>Active</td>
-                                                <td>03-11-2015</td>
-                                                <td>03-11-2015</td>
-                                                    <td>
-                                                        <div class="dropdown">
-                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                                <span class="flaticon-more-button-of-three-dots"></span>
-                                                            </a>
-                                                            <div class="dropdown-menu dropdown-menu-right">
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                                                <a class="dropdown-item" href="#"><i
-                                                                        class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                                <tr>
-                                                    <td>
-
-                                                    </td>
-                                                <td>2014-15</td>
-                                                <td>Yearly</td>
-                                                <td>01-04-2014</td>
-                                                <td>Active</td>
-                                                <td>03-11-2014</td>
-                                                <td>03-11-2014</td>
-                                                    <td>
-                                                        <div class="dropdown">
-                                                            <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
-                                                                <span class="flaticon-more-button-of-three-dots"></span>
-                                                            </a>
-                                                            <div class="dropdown-menu dropdown-menu-right">
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
-                                                                <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
-                                                                <a class="dropdown-item" href="#"><i
-                                                                        class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
-                                                            </div>
-                                                        </div>
-                                                    </td>
-                                                </tr>
-                                            </tbody>
-                                        </table>
+                            </td>
+                            <td>BR-114</td>
+                            <td>DPS Bangalore</td>
+                            <td>0118</td>
+                            <td>DPS Delhi</td>
+                            <td>03-11-2020</td>
+                            <td>03-11-2020</td>
+                            <td>
+                                <div class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                        <span class="flaticon-more-button-of-three-dots"></span>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
+                                        <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
                                     </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
 
+                            </td>
+                            <td>BR-115</td>
+                            <td>DPS Pune</td>
+                            <td>0118</td>
+                            <td>DPS Delhi</td>
+                            <td>03-11-2020</td>
+                            <td>03-11-2020</td>
+                            <!-- <td>10.00 am-11.00 am</td> -->
+                            <!-- <td>20/06/2019</td> -->
+                            <td>
+                                <div class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                        <span class="flaticon-more-button-of-three-dots"></span>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
+                                        <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                            </td>
+                            <td>BR-115</td>
+                            <td>DPS Mumbai</td>
+                            <td>0118</td>
+                            <td>DPS Delhi</td>
+                            <td>03-11-2020</td>
+                            <td>03-11-2020</td>
+                            <td>
+                                <div class="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" aria-expanded="false">
+                                        <span class="flaticon-more-button-of-three-dots"></span>
+                                    </a>
+                                    <div class="dropdown-menu dropdown-menu-right">
+                                        <a class="dropdown-item" href="#"><i class="fas fa-times text-orange-red"></i>Close</a>
+                                        <a class="dropdown-item" href="#"><i class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                        <a class="dropdown-item" href="#"><i
+                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                    </div>
+                                </div>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td>
+
+                            </td>
+
+                            </td>
+
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+-------------------------------------------
+
+
+
+                                      <!--
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Active Session *</label>
+                                            <select class="select2">
+                                                <option value="">Please Select*</option>
+                                                <option value="1">2020-21</option>
+                                                <option value="2">2019-20</option>
+                                                <option value="3">2018-19</option>
+                                            </select>
+                                        </div>
+                                        <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                            <label>Session Start Month *</label>
+                                            <select class="select2">
+                                                <option value="">Please Select*</option>
+                                                <option value="1">January</option>
+                                                <option value="2">Februry</option>
+                                                <option value="3">March</option>
+
+
+                                    </div>
                                 </div>
                             </div>
                         </div>
                     </div>
-
-                <!-- Session Settings Area End Here -->
+                </div>
+                <!-- Account Settings Area End Here -->
                 <footer class="footer-wrap-layout1">
                     <div class="copyright">© Copyrights <a href="#">akkhor</a> 2019. All rights reserved. Designed by <a
                             href="#">PsdBosS</a></div>
