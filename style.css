@@ -2188,6 +2188,11 @@ ul {
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item .nav-link.menu-active {
   background: linear-gradient(180deg,black, #79b1d1,black);
 }
+
+.sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item :hover {
+  background: linear-gradient(180deg,black, #79b1d1,black);
+}
+
 .sidebar-menu-one .sidebar-menu-content .nav-sidebar-menu > .nav-item .nav-link.menu-active span {
   color: #ffffff;
 }

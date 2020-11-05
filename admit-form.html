@@ -604,6 +604,7 @@
                                     <label>Roll</label>
                                     <input type="text" placeholder="" class="form-control">
                                 </div>
+
                                 <div class="col-xl-3 col-lg-6 col-12 form-group">
                                     <label>Date Of Birth *</label>
                                     <input type="text" placeholder="dd/mm/yyyy" class="form-control air-datepicker"
@@ -717,8 +718,7 @@
                                 </div>
                                 <div class="col-lg-6 col-12 form-group">
                                     <label>Short BIO</label>
-                                    <textarea class="textarea form-control" name="message" id="form-message" cols="10"
-                                        rows="9"></textarea>
+                                    <textarea class="textarea form-control" name="message" id="form-message" cols="10" rows="9"></textarea>
                                 </div>
                                 <div class="col-12 form-group mg-t-8">
                                     <button type="submit" class="btn-fill-lg btn-gradient-yellow btn-hover-bluedark">Save</button>
@@ -959,9 +959,10 @@
                                               </div>
                                               <div class="col-xl-3 col-lg-6 col-12 form-group">
                                                   <label>Date Of Birth *</label>
+                                                  <i class="far fa-calendar-alt"></i>
                                                   <input type="text" placeholder="dd/mm/yyyy" class="form-control air-datepicker"
                                                       data-position='bottom right'>
-                                                  <i class="far fa-calendar-alt"></i>
+
                                               </div>
                                               <div class="col-xl-3 col-lg-6 col-12 form-group">
                                                   <label>E-Mail *</label>
@@ -1244,6 +1245,649 @@
                                                                   </div>
                                                                 </div>
 
+                                                                <div class="card height-auto">
+                                                                    <div class="card-body">
+                                                                        <div class="heading-layout1">
+                                                                            <div class="item-title">
+                                                                                <h3>Siblings Information</h3>
+                                                                            </div>
+                                                                            <div class="dropdown">
+                                                                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                                                                    aria-expanded="false">...</a>
+
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-times text-orange-red"></i>Close</a>
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="table-responsive">
+                                                                            <table class="table display data-table text-nowrap">
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <th>Photo</th>
+                                                                                        <th>School</th>
+                                                                                        <th>Name</th>
+                                                                                        <th>Class</th>
+                                                                                        <th>Section</th>
+                                                                                        <th>Date of Birth</th>
+                                                                                        <th>Gender</th>
+                                                                                        <th>Blood Group</th>
+                                                                                        <th>Disability</th>
+                                                                                        <th>Phone</th>
+                                                                                        <th>E-mail</th>
+                                                                                        <th></th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+
+                                                                                        <td class="text-center"><img src="img/figure/student2.png" alt="student"></td>
+                                                                                        <td>DPS, Pune</td>
+                                                                                        <td>Mr. Willy Willy</td>
+                                                                                        <td>5</td>
+                                                                                        <td>B</td>
+                                                                                        <td>03/11/1998</td>
+                                                                                        <td>Male</td>
+                                                                                        <td>o+</td>
+                                                                                        <td>No</td>
+                                                                                        <td>+ 123 9988</td>
+                                                                                        <td>kazi93@gmail.com</td>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                  </tbody>
+                                                                                  </table>
+                                                                                </div>
+
+
+
+                                                                <form class="new-added-form">
+                                                                  <div class="row">
+
+                                                                  <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                      <label>School Name *</label>
+                                                                      <input type="text" placeholder="" class="form-control">
+                                                                  </div>
+
+
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>First Name *</label>
+                                                                          <input type="text" placeholder="" class="form-control">
+                                                                      </div>
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Middle Name *</label>
+                                                                          <input type="text" placeholder="" class="form-control">
+                                                                      </div>
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Last Name *</label>
+                                                                          <input type="text" placeholder="" class="form-control">
+                                                                      </div>
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Class *</label>
+                                                                          <input type="number" placeholder="" class="form-control">
+                                                                      </div>
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Section *</label>
+                                                                          <input type="text" placeholder="" class="form-control">
+                                                                      </div>
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Date Of Birth *</label>
+                                                                          <input type="text" placeholder="dd/mm/yyyy" class="form-control air-datepicker"
+                                                                              data-position='bottom right'>
+                                                                          <i class="far fa-calendar-alt"></i>
+                                                                      </div>
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Gender *</label>
+                                                                          <select class="select2">
+                                                                              <option value="">Please Select Type *</option>
+                                                                              <option value="1">Male</option>
+                                                                              <option value="2">Female</option>
+                                                                          </select>
+                                                                      </div>
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Blood Group *</label>
+                                                                          <select class="select2">
+                                                                              <option value="">Please Select Group *</option>
+                                                                              <option value="1">A+</option>
+                                                                              <option value="2">A-</option>
+                                                                              <option value="3">B+</option>
+                                                                              <option value="3">B-</option>
+                                                                              <option value="3">O+</option>
+                                                                              <option value="3">O-</option>
+                                                                          </select>
+                                                                      </div>
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Disability *</label>
+                                                                          <select class="select2">
+                                                                              <option value="">Please Select Type *</option>
+                                                                              <option value="1">Yes</option>
+                                                                              <option value="2">No</option>
+                                                                          </select>
+                                                                      </div>
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Mobile *</label>
+                                                                          <input type="number" placeholder="" class="form-control">
+                                                                      </div>
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>E-Mail *</label>
+                                                                          <input type="email" placeholder="" class="form-control">
+                                                                      </div>
+
+                                                                  </div>
+                                                                </form>
+                                                                </div>
+                                                                </div>
+                                                                <div class="card height-auto">
+                                                                    <div class="card-body">
+                                                                        <div class="heading-layout1">
+                                                                            <div class="item-title">
+                                                                                <h3>Background Verification (Note: Based on the Status, Field used anywhere in the form reflect the flag)</h3>
+                                                                            </div>
+                                                                            <div class="dropdown">
+                                                                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                                                                    aria-expanded="false">...</a>
+
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-times text-orange-red"></i>Close</a>
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+                                                                        <div class="table-responsive">
+                                                                            <table class="table display data-table text-nowrap">
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <th>Document Title</th>
+                                                                                        <th>Document Type</th>
+                                                                                        <th>Copy Type</th>
+                                                                                        <th>Upload Size (KB)</th>
+                                                                                        <th>Verification Status</th>
+                                                                                        <th></th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>Medical Certificate New</td>
+                                                                                        <td>Medical Certificate</td>
+                                                                                        <td>Original</td>
+                                                                                        <td>250</td>
+                                                                                        <td>Approved</td>
+                                                                                        </td>
+                                                                                    </tr>
+                                                                                  </tbody>
+                                                                                  <tbody>
+                                                                                      <tr>
+                                                                                          <td>Migration Certificate New</td>
+                                                                                          <td>Migration Certificate</td>
+                                                                                          <td>Original</td>
+                                                                                          <td>227</td>
+                                                                                          <td>Approved</td>
+                                                                                          </td>
+                                                                                      </tr>
+                                                                                    </tbody>
+                                                                                  </table>
+                                                                                </div>
+
+
+
+                                                                <form class="new-added-form">
+                                                                  <div class="row">
+
+                                                                  <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                      <label>Document Title *</label>
+                                                                      <input type="text" placeholder="" class="form-control">
+                                                                  </div>
+
+
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Document Type *</label>
+                                                                          <select class="select2">
+                                                                              <option value="">Please Select Type *</option>
+                                                                              <option value="1">Original</option>
+                                                                              <option value="2">Photocopy</option>
+                                                                              <option value="2">Others</option>
+                                                                          </select>
+                                                                      </div>
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Document Size (KB) *</label>
+                                                                          <input type="number" placeholder="" class="form-control">
+                                                                      </div>
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Verification Status *</label>
+                                                                          <select class="select2">
+                                                                              <option value="">Please Select Type *</option>
+                                                                              <option value="1">Pending</option>
+                                                                              <option value="2">Approved</option>
+                                                                              <option value="2">Reject</option>
+                                                                              <option value="2">Re-submit</option>
+                                                                          </select>
+
+                                                                  </div>
+                                                                </form>
+                                                                </div>
+                                                                </div>
+
+                                                                <div class="card height-auto">
+                                                                    <div class="card-body">
+                                                                        <div class="heading-layout1">
+                                                                            <div class="item-title">
+                                                                                <h3>Fee Structure (Display as defined in the Master)</h3>
+                                                                            </div>
+                                                                            <div class="dropdown">
+                                                                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                                                                    aria-expanded="false">...</a>
+
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-times text-orange-red"></i>Close</a>
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+                                                                        <form class="new-added-form">
+                                                                          <div class="row">
+
+                                                                          <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                              <label>Allocate Group *</label>
+                                                                              <select class="select2">
+                                                                                  <option value="">Please Select Type *</option>
+                                                                                  <option value="1">Group1</option>
+                                                                                  <option value="2">Group2</option>
+                                                                                  <option value="2">Group3</option>
+                                                                              </select>
+                                                                          </div>
+
+
+                                                                          <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                              <label>Concession *</label>
+                                                                              <select class="select2">
+                                                                                  <option value="">Please Select Type *</option>
+                                                                                  <option value="1">No</option>
+                                                                                  <option value="2">Concession1</option>
+                                                                                  <option value="2">Concession2</option>
+                                                                              </select>
+                                                                          </div>
+                                                                        <div class="table-responsive">
+                                                                            <table class="table display data-table text-nowrap">
+                                                                                <thead>
+                                                                                    <tr>
+                                                                                        <th>FeeHeader</th>
+                                                                                        <th>Month1</th>
+                                                                                        <th>Month2</th>
+                                                                                        <th>Month3</th>
+                                                                                        <th>Month4</th>
+                                                                                        <th>Month5</th>
+                                                                                        <th>Month6</th>
+                                                                                        <th>Month7</th>
+                                                                                        <th>Month8</th>
+                                                                                        <th>Month9</th>
+                                                                                        <th>Month10</th>
+                                                                                        <th>Month11</th>
+                                                                                        <th>Month12</th>
+                                                                                        <th>Total</th>
+                                                                                        <th></th>
+                                                                                    </tr>
+                                                                                </thead>
+                                                                                <tbody>
+                                                                                    <tr>
+                                                                                        <td>Tuition Fee</td>
+                                                                                        <td>5000</td>
+                                                                                        <td>5000</td>
+                                                                                        <td>5000</td>
+                                                                                        <td>5000</td>
+                                                                                        <td>5000</td>
+                                                                                        <td>5000</td>
+                                                                                        <td>5000</td>
+                                                                                        <td>5000</td>
+                                                                                        <td>5000</td>
+                                                                                        <td>5000</td>
+                                                                                        <td>5000</td>
+                                                                                        <td>5000</td>
+                                                                                        <td>60000</td>
+                                                                                    </tr>
+                                                                                  </tbody>
+                                                                                  <tbody>
+                                                                                      <tr>
+                                                                                          <td>Misc Fee</td>
+                                                                                          <td>2000</td>
+                                                                                          <td>2000</td>
+                                                                                          <td>2000</td>
+                                                                                          <td>2000</td>
+                                                                                          <td>2000</td>
+                                                                                          <td>2000</td>
+                                                                                          <td>2000</td>
+                                                                                          <td>2000</td>
+                                                                                          <td>2000</td>
+                                                                                          <td>2000</td>
+                                                                                          <td>2000</td>
+                                                                                          <td>2000</td>
+                                                                                          <td>24000</td>
+                                                                                      </tr>
+                                                                                    </tbody>
+                                                                                    <tbody>
+                                                                                        <tr>
+                                                                                            <td>Total</td>
+                                                                                            <td>7000</td>
+                                                                                            <td>7000</td>
+                                                                                            <td>7000</td>
+                                                                                            <td>7000</td>
+                                                                                            <td>7000</td>
+                                                                                            <td>7000</td>
+                                                                                            <td>7000</td>
+                                                                                            <td>7000</td>
+                                                                                            <td>7000</td>
+                                                                                            <td>7000</td>
+                                                                                            <td>7000</td>
+                                                                                            <td>7000</td>
+                                                                                            <td>84000</td>
+                                                                                        </tr>
+                                                                                      </tbody>
+                                                                                  </table>
+                                                                                </div>
+                                                                </div>
+                                                                </div>
+
+                                                                <div class="card height-auto">
+                                                                    <div class="card-body">
+                                                                        <div class="heading-layout1">
+                                                                            <div class="item-title">
+                                                                                <h3>Board Registration</h3>
+                                                                            </div>
+                                                                            <div class="dropdown">
+                                                                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                                                                    aria-expanded="false">...</a>
+
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-times text-orange-red"></i>Close</a>
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+
+                                                                <form class="new-added-form">
+                                                                  <div class="row">
+
+                                                                  <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                      <label>Board Name *</label>
+                                                                      <input type="text" placeholder="" class="form-control">
+                                                                  </div>
+
+
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Board Registration No. *</label>
+                                                                          <input type="number" placeholder="" class="form-control">
+                                                                      </div>
+                                                                      <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                          <label>Roll No. *</label>
+                                                                          <input type="number" placeholder="" class="form-control">
+                                                                      </div>
+                                                                </form>
+                                                                </div>
+                                                                </div>
+
+                                                                <div class="card height-auto">
+                                                                    <div class="card-body">
+                                                                        <div class="heading-layout1">
+                                                                            <div class="item-title">
+                                                                                <h3>Co-curricular Skill Set</h3>
+                                                                            </div>
+                                                                            <div class="dropdown">
+                                                                                <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                                                                    aria-expanded="false">...</a>
+
+                                                                                <div class="dropdown-menu dropdown-menu-right">
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-times text-orange-red"></i>Close</a>
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                                                                    <a class="dropdown-item" href="#"><i
+                                                                                            class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                                                                </div>
+                                                                            </div>
+                                                                        </div>
+
+
+                                                                                <div class="table-responsive">
+                                                                                    <table class="table display data-table text-nowrap">
+                                                                                        <thead>
+                                                                                            <tr>
+                                                                                                <th>Co-curricular Skill Set Type</th>
+                                                                                                <th>Achievement</th>
+                                                                                                <th>Score (10)</th>
+                                                                                                <th>Description</th>
+                                                                                                <th></th>
+                                                                                            </tr>
+                                                                                        </thead>
+                                                                                        <tbody>
+                                                                                            <tr>
+                                                                                                <th>Chess</th>
+                                                                                                <td>Regional Chess Champion</td>
+                                                                                                <td>8</td>
+                                                                                                <td>2 times Qualifier</td>
+                                                                                                </td>
+                                                                                            </tr>
+                                                                                          </tbody>
+                                                                                          </table>
+                                                                                        </div>
+
+
+
+                                                                        <form class="new-added-form">
+                                                                          <div class="row">
+                                                                          <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                              <label>Co-curricular Skill Set Type *</label>
+                                                                              <select class="select2">
+                                                                                  <option value="">Please Select Type *</option>
+                                                                                  <option value="1">Chess</option>
+                                                                                  <option value="2">Football</option>
+                                                                              </select>
+                                                                          </div>
+                                                                          <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                              <label>Achievement Name *</label>
+                                                                              <input type="text" placeholder="" class="form-control">
+                                                                          </div>
+                                                                              <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                                  <label>Score (10) *</label>
+                                                                                  <input type="number" placeholder="" class="form-control">
+                                                                              </div>
+                                                                              <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                                  <label>Description *</label>
+                                                                                  <textarea class="textarea form-control" name="message" id="form-message" cols="10" rows="9"></textarea>
+                                                                              </div>
+                                                                                      </div>
+                                                                                    </div>
+                                                                                  </div>
+
+                                                                                  <div class="card height-auto">
+                                                                                      <div class="card-body">
+                                                                                          <div class="heading-layout1">
+                                                                                              <div class="item-title">
+                                                                                                  <h3>Student Bank Account</h3>
+                                                                                              </div>
+                                                                                              <div class="dropdown">
+                                                                                                  <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                                                                                      aria-expanded="false">...</a>
+
+                                                                                                  <div class="dropdown-menu dropdown-menu-right">
+                                                                                                      <a class="dropdown-item" href="#"><i
+                                                                                                              class="fas fa-times text-orange-red"></i>Close</a>
+                                                                                                      <a class="dropdown-item" href="#"><i
+                                                                                                              class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                                                                                      <a class="dropdown-item" href="#"><i
+                                                                                                              class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                                                                                  </div>
+                                                                                              </div>
+                                                                                          </div>
+
+
+                                                                                                  <div class="table-responsive">
+                                                                                                      <table class="table display data-table text-nowrap">
+                                                                                                          <thead>
+                                                                                                              <tr>
+                                                                                                                  <th>Relation Type</th>
+                                                                                                                  <th>Account  Holder Name</th>
+                                                                                                                  <th>Account No. </th>
+                                                                                                                  <th>IFSC Code</th>
+                                                                                                                  <th>Bank Name</th>
+                                                                                                                  <th>Branch Code</th>
+                                                                                                                  <th></th>
+                                                                                                              </tr>
+                                                                                                          </thead>
+                                                                                                          <tbody>
+                                                                                                              <tr>
+                                                                                                                  <th>Father</th>
+                                                                                                                  <td>Mr. Wiley Wiley</td>
+                                                                                                                  <td>001586538467896</td>
+                                                                                                                  <td>PUNB04456</td>
+                                                                                                                  <td>Punjab National Bank</td>
+                                                                                                                  <td>00567</td>
+                                                                                                                  </td>
+                                                                                                              </tr>
+                                                                                                            </tbody>
+                                                                                                            </table>
+                                                                                                          </div>
+
+
+
+                                                                                          <form class="new-added-form">
+                                                                                            <div class="row">
+                                                                                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                                                <label>Relation Type *</label>
+                                                                                                <select class="select2">
+                                                                                                    <option value="">Please Select Type *</option>
+                                                                                                    <option value="1">Self</option>
+                                                                                                    <option value="2">Father</option>
+                                                                                                    <option value="3">Mother</option>
+                                                                                                    <option value="4">Uncle</option>
+                                                                                                    <option value="5">Sister</option>
+                                                                                                </select>
+                                                                                            </div>
+                                                                                            <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                                                <label>Account Holder Name *</label>
+                                                                                                <input type="text" placeholder="" class="form-control">
+                                                                                            </div>
+                                                                                                <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                                                    <label>Account No. *</label>
+                                                                                                    <input type="number" placeholder="" class="form-control">
+                                                                                                </div>
+                                                                                                <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                                                    <label>IFSC Code *</label>
+                                                                                                    <input type="text" placeholder="" class="form-control">
+                                                                                                </div>
+                                                                                                <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                                                    <label>Bank Name *</label>
+                                                                                                    <input type="text" placeholder="" class="form-control">
+                                                                                                </div>
+                                                                                                <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                                                    <label>Branch Code *</label>
+                                                                                                    <input type="text" placeholder="" class="form-control">
+                                                                                                </div>
+                                                                                                        </div>
+                                                                                                      </div>
+                                                                                                    </div>
+
+                                                                                                    <div class="card height-auto">
+                                                                                                        <div class="card-body">
+                                                                                                            <div class="heading-layout1">
+                                                                                                                <div class="item-title">
+                                                                                                                    <h3>Termination Process (Under Discussion)</h3>
+                                                                                                                </div>
+                                                                                                                <div class="dropdown">
+                                                                                                                    <a class="dropdown-toggle" href="#" role="button" data-toggle="dropdown"
+                                                                                                                        aria-expanded="false">...</a>
+
+                                                                                                                    <div class="dropdown-menu dropdown-menu-right">
+                                                                                                                        <a class="dropdown-item" href="#"><i
+                                                                                                                                class="fas fa-times text-orange-red"></i>Close</a>
+                                                                                                                        <a class="dropdown-item" href="#"><i
+                                                                                                                                class="fas fa-cogs text-dark-pastel-green"></i>Edit</a>
+                                                                                                                        <a class="dropdown-item" href="#"><i
+                                                                                                                                class="fas fa-redo-alt text-orange-peel"></i>Refresh</a>
+                                                                                                                    </div>
+                                                                                                                </div>
+                                                                                                            </div>
+
+
+                                                                                                                    <div class="table-responsive">
+                                                                                                                        <table class="table display data-table text-nowrap">
+                                                                                                                            <thead>
+                                                                                                                                <tr>
+                                                                                                                                    <th>Session</th>
+                                                                                                                                    <th>Date of Termination</th>
+                                                                                                                                    <th>Termination Type </th>
+                                                                                                                                    <th>Reason</th>
+                                                                                                                                    <th></th>
+                                                                                                                                </tr>
+                                                                                                                            </thead>
+                                                                                                                            <tbody>
+                                                                                                                                <tr>
+                                                                                                                                    <th>2020-21</th>
+                                                                                                                                    <td>12-12-2020</td>
+                                                                                                                                    <td>Drop-out</td>
+                                                                                                                                    <td>Failed thrice</td>
+                                                                                                                                    </td>
+                                                                                                                                </tr>
+                                                                                                                              </tbody>
+                                                                                                                              </table>
+                                                                                                                            </div>
+
+
+
+                                                                                                            <form class="new-added-form">
+                                                                                                              <div class="row">
+                                                                                                              <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                                                                  <label>Session *</label>
+                                                                                                                  <select class="select2">
+                                                                                                                      <option value="">Please Select Type *</option>
+                                                                                                                      <option value="1">2020-21</option>
+                                                                                                                      <option value="2">2019-20</option>
+                                                                                                                      <option value="3">2019-18</option>
+                                                                                                                      <option value="4">2018-17</option>
+                                                                                                                      <option value="5">2017-16</option>
+                                                                                                                  </select>
+                                                                                                              </div>
+                                                                                                              <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                                                                  <label>Date of Termination *</label>
+                                                                                                                  <input type="text" placeholder="dd/mm/yyyy" class="form-control air-datepicker"
+                                                                                                                      data-position='bottom right'> <i class="far fa-calendar-alt"></i>
+                                                                                                              </div>
+                                                                                                                  <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                                                                      <label>Termination Type *</label>
+                                                                                                                      <select class="select2">
+                                                                                                                          <option value="">Please Select Type *</option>
+                                                                                                                          <option value="1">Wrong Entry</option>
+                                                                                                                          <option value="2">Drop-out</option>
+                                                                                                                          <option value="3">Fee Defaulter</option>
+                                                                                                                          <option value="4">Moved to other City</option>
+                                                                                                                          <option value="5">Transfer to another city</option>
+                                                                                                                      </select>
+                                                                                                                  </div>
+                                                                                                                  <div class="col-xl-3 col-lg-6 col-12 form-group">
+                                                                                                                      <label>Reason/Remarks *</label>
+                                                                                                                      <textarea class="textarea form-control" name="message" id="form-message" cols="10" rows="9"></textarea>
+                                                                                                                  </div>
+
+                                                                                                                          </div>
+                                                                                                                        </div>
+                                                                                                                      </div>
 
 
                     <div class="col-12 form-group mg-t-8">
